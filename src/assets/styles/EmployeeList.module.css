@@ -1,0 +1,33 @@
+/* EmployeeList.module.css */
+
+.employeeList {
+ 
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 2em;
+  color: #343a40;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1em;
+  color: #6c757d;
+  text-align: center;
+}
+
+@keyframes refresh {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.refreshing {
+  animation: refresh 0.6s linear infinite;
+}
